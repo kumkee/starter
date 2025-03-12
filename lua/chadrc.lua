@@ -18,6 +18,8 @@ M.mason = {
   skip = {
     "stylua",
     "lua-language-server",
+    "lemminx",
+    "fsautocomplete",
   },
 }
 
