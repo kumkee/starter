@@ -25,6 +25,7 @@ return {
         "printf",
         "fsharp",
         "elm",
+        "nix",
       },
     },
   },
