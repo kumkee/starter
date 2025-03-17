@@ -1,3 +1,5 @@
+-- Plugins for individual languanges
+
 return {
-  {"ionide/Ionide-vim"}
+  { "ionide/Ionide-vim" },
 }
