@@ -7,13 +7,13 @@ local lspconfig = require "lspconfig"
 local servers = {
   "html",
   "cssls",
-  "ts_ls",
-  "elmls",
-  "fsautocomplete", -- f#
+  -- "ts_ls",
+  -- "elmls",
+  -- "fsautocomplete", -- f#
   "lemminx", -- xml
   "jsonls", -- json
-  "csharp_ls",
-  "hls", -- Haskell
+  -- "csharp_ls",
+  -- "hls", -- Haskell
   "nil_ls", -- nix
   "yamlls", -- yaml
   -- "ltex", -- added below in a separate section
