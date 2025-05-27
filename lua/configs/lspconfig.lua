@@ -17,7 +17,8 @@ local servers = {
   "nil_ls", -- nix
   "yamlls", -- yaml
   -- "ltex", -- added below in a separate section
-  "marksman",
+  "marksman", -- markdown
+  "elixirls", -- elixir
 }
 local nvlsp = require "nvchad.configs.lspconfig"
 
