@@ -26,6 +26,7 @@ return {
         "fsharp",
         "elm",
         "nix",
+        "elixir",
       },
     },
   },
