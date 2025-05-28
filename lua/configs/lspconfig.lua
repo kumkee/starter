@@ -1,9 +1,5 @@
--- load defaults i.e lua_lsp
 require("nvchad.configs.lspconfig").defaults()
 
-local lspconfig = require "lspconfig"
-
--- EXAMPLE
 local servers = {
   "html",
   "cssls",
@@ -20,32 +16,6 @@ local servers = {
   "marksman", -- markdown
   "elixirls", -- elixir
 }
-local nvlsp = require "nvchad.configs.lspconfig"
+vim.lsp.enable(servers)
 
--- lsps with default config
-for _, lsp in ipairs(servers) do
-  lspconfig[lsp].setup {
-    on_attach = nvlsp.on_attach,
-    on_init = nvlsp.on_init,
-    capabilities = nvlsp.capabilities,
-  }
-end
-
--- ltex: special treatment - md, latex, and more
--- lspconfig["ltex"].setup {
---   on_attach = nvlsp.on_attach,
---   on_init = nvlsp.on_init,
---   capabilities = nvlsp.capabilities,
---   settings = {
---     ltex = {
---       language = "en-GB",
---     },
---   },
--- }
-
--- configuring single server, example: typescript
--- lspconfig.ts_ls.setup {
---   on_attach = nvlsp.on_attach,
---   on_init = nvlsp.on_init,
---   capabilities = nvlsp.capabilities,
--- }
+-- read :h vim.lsp.config for changing options of lsp servers 
