@@ -2,6 +2,7 @@ local options = {
   formatters_by_ft = {
     lua = { "stylua" },
     nix = { "alejandra" },
+    elixir = { "mix" },
     -- fsharp = { "fantomas" },
     -- css = { "prettier" },
     -- html = { "prettier" },
