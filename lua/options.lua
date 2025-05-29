@@ -1,4 +1,5 @@
 require "nvchad.options"
+require "els"
 
 -- add yours here!
 
@@ -6,5 +7,5 @@ require "nvchad.options"
 -- o.cursorlineopt ='both' -- to enable cursorline!
 vim.lsp.config("elixirls", {
   -- Unix
-  cmd = { "$HOME/.local/share/nvim/mason/packages/elixir-ls/language_server.sh" },
+  cmd = { Elixirls },
 })
