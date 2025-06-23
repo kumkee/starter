@@ -10,7 +10,7 @@ local servers = {
   "jsonls", -- json
   -- "csharp_ls",
   -- "hls", -- Haskell
-  "nil_ls", -- nix
+  "nixd", -- nix
   "yamlls", -- yaml
   -- "ltex", -- added below in a separate section
   "marksman", -- markdown
