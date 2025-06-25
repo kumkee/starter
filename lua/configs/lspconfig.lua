@@ -1,4 +1,6 @@
 require("nvchad.configs.lspconfig").defaults()
+require'lspconfig'.nil_ls.setup{} -- this works, but not 'servers' below
+-- TODO: find out why vim.lsp.enable(servers) fails
 
 local servers = {
   "html",
@@ -10,11 +12,11 @@ local servers = {
   "jsonls", -- json
   -- "csharp_ls",
   -- "hls", -- Haskell
-  "nixd", -- nix
+  "nil", -- nix
   "yamlls", -- yaml
   -- "ltex", -- added below in a separate section
   "marksman", -- markdown
-  "elixirls", -- elixir
+  -- "elixirls", -- elixir
 }
 vim.lsp.enable(servers)
 
