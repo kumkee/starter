@@ -1,6 +1,4 @@
 require("nvchad.configs.lspconfig").defaults()
--- require'lspconfig'.nil_ls.setup{} -- this works, but not 'servers' below
--- TODO: find out why vim.lsp.enable(servers) fails
 
 local servers = {
   "html",
