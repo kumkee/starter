@@ -3,6 +3,7 @@ local options = {
     lua = { "stylua" },
     nix = { "alejandra" },
     elixir = { "mix" },
+    json = { "deno_fmt" },
     -- fsharp = { "fantomas" },
     -- css = { "prettier" },
     -- html = { "prettier" },
