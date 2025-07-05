@@ -3,6 +3,7 @@ require("nvchad.configs.lspconfig").defaults()
 local servers = {
   "html",
   "cssls",
+  "denols",
   -- "ts_ls",
   -- "elmls",
   -- "fsautocomplete", -- f#
@@ -18,4 +19,4 @@ local servers = {
 }
 vim.lsp.enable(servers)
 
--- read :h vim.lsp.config for changing options of lsp servers 
+-- read :h vim.lsp.config for changing options of lsp servers
