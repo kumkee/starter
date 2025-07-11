@@ -30,6 +30,21 @@ return {
       },
     },
   },
+
+  {
+    "zbirenbaum/copilot.lua",
+    event = { "InsertEnter" },
+    config = function()
+      require("copilot").setup {
+        suggestion = { enabled = true, auto_trigger = true, keymap = {
+          accept = "<C-l>",
+          accept_word = "<C-w>",
+          accept_line = "<C-e>",
+        } },
+        panel = { enabled = true },
+      }
+    end,
+  },
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
