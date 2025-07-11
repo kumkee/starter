@@ -15,7 +15,7 @@ local servers = {
   "yamlls", -- yaml
   -- "ltex", -- added below in a separate section
   "marksman", -- markdown
-  -- "elixirls", -- elixir
+  "elixirls", -- elixir
 }
 vim.lsp.enable(servers)
 
