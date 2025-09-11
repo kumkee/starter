@@ -5,6 +5,7 @@ local options = {
     elixir = { "mix" },
     javascript = { "deno_fmt" },
     json = { "deno_fmt" },
+    haskell = { "ormolu" },
     -- fsharp = { "fantomas" },
     -- css = { "prettier" },
     -- html = { "prettier" },
