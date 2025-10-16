@@ -1,5 +1,5 @@
 require "nvchad.options"
-require "_nix_elixirls"
+-- require "_nix_elixirls"
 
 -- add yours here!
 
